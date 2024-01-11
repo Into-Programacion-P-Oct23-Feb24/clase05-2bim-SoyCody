@@ -19,6 +19,8 @@ public class Ejemplo06 {
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
+            // en este ciclo ya optimizado se llama directamente el valor
+            // a presentar
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -26,6 +28,7 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
+            // aca se hace la misma operacion pero mas detallada
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -33,6 +36,7 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
+            // la variable suma obtiene el valor del metodo
         }
         
         

@@ -16,6 +16,6 @@ public class Ejemplo01 {
         numero = numero - 1;
         imprimirNumeros(numero);
 
-    }
+    }  
 
 }
